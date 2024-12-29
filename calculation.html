@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cal</title>
+<link rel="stylesheet" href="calculation.css">
+</head>
+<body>
+    <div id="container">
+        
+            <input id="display" readonly>
+          <div id="key">
+            <button onclick="appendtodisplay('7')">7</button>
+            <button onclick="appendtodisplay('8')">8</button>
+            <button onclick="appendtodisplay('9')">9</button>
+            <button onclick="appendtodisplay('*')" style="background-color: goldenrod;">*</button>
+            <button onclick="appendtodisplay('4')">4</button>
+            <button onclick="appendtodisplay('5')">5</button>
+            <button onclick="appendtodisplay('6')">6</button>
+            <button style="background-color: goldenrod;"  onclick="appendtodisplay('-')">-</button>
+            <button onclick="appendtodisplay('1')">1</button>
+            <button onclick="appendtodisplay('2')">2</button>
+            <button onclick="appendtodisplay('3')">3</button>
+            <button style="background-color: goldenrod;"  onclick="appendtodisplay('+')">+</button>
+            <button onclick="appendtodisplay('0')">0 </button>
+            <button onclick="appendtodisplay('.')">.</button>
+            <button style="background-color: goldenrod;" onclick="calculate()">=</button>
+            <button style="background-color: goldenrod;"  onclick="appendtodisplay('/')">/</button>
+            <button onclick="cleardisplay()">AC</button>
+            <script src="calculation.js"></script>
+          
+        </div>
+
+    </div>
+</body>
+</html>
